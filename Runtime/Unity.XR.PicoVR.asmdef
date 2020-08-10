@@ -1,0 +1,22 @@
+{
+    "name": "Unity.XR.PicoVR",
+    "references": [
+        "Unity.XR.Management",
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.inputsystem",
+            "expression": "",
+            "define": "UNITY_INPUT_SYSTEM"
+        }
+    ],
+    "noEngineReferences": false
+}

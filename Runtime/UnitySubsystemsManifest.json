@@ -1,0 +1,18 @@
+{
+  "name": "UnityPicoVR",
+  "version": "1.0.0-preview",
+  "libraryName": "UnityPicoVR",
+
+  "displays": [
+    {
+      "id": "PicoVR display",
+      "disablesLegacyVr" : true,
+      "supportedMirrorBlitReservedModes" : ["leftEye","rightEye", "sideBySide","occlusionMesh"]
+    }
+  ],
+  "inputs": [
+    {
+      "id": "PicoVR input"
+    }
+  ]
+}
