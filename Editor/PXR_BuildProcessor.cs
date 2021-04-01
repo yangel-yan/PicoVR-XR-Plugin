@@ -193,7 +193,7 @@ namespace Unity.XR.PXR.Editor
             var nodePath = "/manifest/application";
 			UpdateOrCreateAttributeInTag(manifestDoc, "/manifest","application", "requestLegacyExternalStorage","true");
             UpdateOrCreateNameValueElementsInTag(manifestDoc, nodePath, "meta-data", "name", "pvr.app.type", "value", "vr");
-            UpdateOrCreateNameValueElementsInTag(manifestDoc, nodePath, "meta-data", "name", "pvr.sdk.version", "value", "XR Platform_1.1.1.8");
+            UpdateOrCreateNameValueElementsInTag(manifestDoc, nodePath, "meta-data", "name", "pvr.sdk.version", "value", "XR Platform_1.2.1.0");
             UpdateOrCreateNameValueElementsInTag(manifestDoc, nodePath, "meta-data", "name", "enable_cpt", "value", PXR_ProjectSetting.GetProjectConfig().useContentProtect ? "1" : "0");
             UpdateOrCreateNameValueElementsInTag(manifestDoc, nodePath, "meta-data", "name", "enable_entitlementcheck", "value", PXR_PlatformSetting.Instance.startTimeEntitlementCheck ? "1" : "0");
             CreateNameValueElementsInTag(manifestDoc, "/manifest", "uses-permission","name", "android.permission.WRITE_SETTINGS");

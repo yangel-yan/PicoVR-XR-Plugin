@@ -190,6 +190,25 @@ namespace Unity.XR.PXR
             return true;
         }
 
+        public static bool GetRightEyeGazeOpenness(out float openness)
+        {
+            openness = 0;
+
+            if (!PXR_Manager.Instance.eyeTracking)
+                return false;
+
+            InputDevice device;
+            if (!GetEyeTrackingDevice(out device))
+                return false;
+
+            if (!device.TryGetFeatureValue(PXR_Usages.rightEyeOpenness, out openness))
+            {
+                return false;
+            }
+
+            return true;
+        }
+
         public static bool GetLeftEyePoseStatus(out uint status)
         {
             status = 0;

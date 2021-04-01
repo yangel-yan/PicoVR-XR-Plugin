@@ -116,7 +116,6 @@ public class PXR_SDKSettingEditor : EditorWindow
         EditorApplication.update += Update;
     }
 
-    [MenuItem("PXR_SDK" + "/SDK Setting")]
     static void Init()
     {
         IsIgnoreWindow();

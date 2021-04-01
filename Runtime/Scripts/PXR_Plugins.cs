@@ -275,7 +275,7 @@ namespace Unity.XR.PXR
 
     public static class PXR_Plugin
     {
-        private const string PxrSDKVersion = "1.1.1.8";
+        private const string PxrSDKVersion = "1.2.1.0";
 
         private static AndroidJavaClass sysClass,homeKeyClass, audioClass, batteryClass, controllerClass0, controllerClass1, controllerClass2, pxrClass0, pxrClass1, pxrClass2, unityPlayer;
         private static AndroidJavaObject activity;
